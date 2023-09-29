@@ -2,11 +2,11 @@
 
 # Set-up
 
-pnpm create vite@latest -> React, TS
-pnpm install
-pnpm install react-router-dom tailwindcss postcss autoprefixer
-pnpm code .
-pnpm run dev
+- pnpm create vite@latest -> React, TS
+- pnpm install
+- pnpm install react-router-dom tailwindcss postcss autoprefixer
+- pnpm code .
+- pnpm run dev
 
 # Overview
 
