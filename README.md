@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This document describes my solution to the technical test to fetch data from the PokéAPI and display a list of Pokémon and two views for the list and details for each Pokémon.
 
-Currently, two official plugins are available:
+## Solution
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+My solution is a web application that uses HTML, CSS, and JavaScript to fetch data from the PokeAPI and display it in two views: a list view and a details view.
 
-## Expanding the ESLint configuration
+### List View
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The list view displays a list of all Pokémon, with each Pokémon represented by a card. The card includes the Pokémon's name, image, and type.
 
-- Configure the top-level `parserOptions` property like this:
+### Details View
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+The details view displays all of the information about a single Pokémon, including its name, image, type, stats, and moves.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Implementation
+
+I used the following technologies to implement my solution:
+
+HTML: To create the structure of my web pages.
+CSS: To style my web pages.
+JavaScript: To fetch data from the PokéAPI and display it in my web pages.
+TypeScript: To recognize datatypes.
+React: A JavaScript library that I used to create my web application.
+React-Router: To manage views.
+TailwindCSS. 
