@@ -28,10 +28,10 @@ The details view displays all of the information about a single Pokémon, includ
 
 I used the following technologies to implement my solution:
 
-HTML: To create the structure of my web pages.
-CSS: To style my web pages.
-JavaScript: To fetch data from the PokéAPI and display it in my web pages.
-TypeScript: To recognize datatypes.
-React: A JavaScript library that I used to create my web application.
-React-Router: To manage views.
-TailwindCSS. 
+- HTML: To create the structure of my web pages.
+- CSS: To style my web pages.
+- JavaScript: To fetch data from the PokéAPI and display it in my web pages.
+- TypeScript: To recognize datatypes.
+- React: A JavaScript library that I used to create my web application.
+- React-Router: To manage views.
+- TailwindCSS. 
