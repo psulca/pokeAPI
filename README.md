@@ -1,5 +1,13 @@
 **LIVE-DEMO**: https://prueba-react-pokedex.netlify.app/ 
 
+# Set-up
+
+pnpm create vite@latest -> React, TS
+pnpm install
+pnpm install react-router-dom tailwindcss postcss autoprefixer
+pnpm code .
+pnpm run dev
+
 # Overview
 
 This document describes my solution to the technical test to fetch data from the PokéAPI and display a list of Pokémon and two views for the list and details for each Pokémon.
